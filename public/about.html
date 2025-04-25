@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | David Khalifa - Principal Software Architect</title>
+    <meta name="description" content="Learn more about David Khalifa, Principal Software Architect at Microsoft with over 15 years of experience in cloud architecture and distributed systems.">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">David Khalifa</a>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Profile Header -->
+    <section class="hero" style="padding: 140px 0 var(--spacing-xl);">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>About Me</h1>
+                    <p class="hero-tagline">Principal Software Architect at Microsoft</p>
+                    <p id="about-description">Loading personal information...</p>
+                </div>
+                <div class="hero-image">
+                    <img src="images/profile.png" alt="David Khalifa">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- My Story Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-heading">
+                <h2>My Story</h2>
+                <p>The journey that shaped my professional experience</p>
+            </div>
+            
+            <div class="card">
+                <p id="my-story">Loading personal story...</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Professional Journey Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Professional Journey</h2>
+                <p>My professional experience across various organizations</p>
+            </div>
+            
+            <div class="timeline-container">
+                <div class="timeline">
+                    <div class="timeline-entries" id="timeline-entries">
+                        <!-- Timeline entries will be loaded dynamically -->
+                    </div>
+                    <div class="timeline-navigation">
+                        <button class="timeline-nav prev" aria-label="Previous">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <div class="timeline-dots" id="timeline-dots">
+                            <!-- Will be populated dynamically -->
+                        </div>
+                        <button class="timeline-nav next" aria-label="Next">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Skills & Expertise</h2>
+                <p>The technical and professional skills I've developed throughout my career</p>
+            </div>
+            
+            <div class="card">
+                <h3>Technical Skills</h3>
+                <div class="skills-container" id="skills-container">
+                    <!-- Will be populated dynamically -->
+                    <span class="tag">Loading...</span>
+                </div>
+                
+                <h3 class="mt-lg">Technology Categories</h3>
+                <div class="skills-categories">
+                    <div class="skill-category">
+                        <h4>Cloud Platforms</h4>
+                        <div id="cloud-skills">
+                            <!-- Will be populated dynamically -->
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Languages & Frameworks</h4>
+                        <div id="language-skills">
+                            <!-- Will be populated dynamically -->
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>Architecture & Design</h4>
+                        <div id="architecture-skills">
+                            <!-- Will be populated dynamically -->
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h4>DevOps & Tools</h4>
+                        <div id="devops-skills">
+                            <!-- Will be populated dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Education Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Education</h2>
+                <p>Academic background and credentials</p>
+            </div>
+            
+            <div class="education-container" id="education-container">
+                <!-- Will be populated dynamically -->
+                <div class="card">
+                    <div class="education-item">
+                        <div class="education-logo">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="education-details">
+                            <h3>Loading...</h3>
+                            <p class="education-degree">Loading...</p>
+                            <p class="education-period">Loading...</p>
+                            <p class="education-location">Loading...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Work Together?</h2>
+                <p>Now that you know a bit more about me, I'd love to hear about your projects and how I could contribute.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary btn-lg">Get in Touch</a>
+                    <a href="resume.html" class="btn btn-outline btn-lg">View My Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>David Khalifa</h3>
+                    <p>Principal Software Architect specializing in cloud solutions, distributed systems, and enterprise architecture.</p>                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/davidkhalifa" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/davidkhalifa" class="social-icon" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/davidkhalifa" class="social-icon" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Navigation</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:davidkhalifa@microsoft.com">davidkhalifa@microsoft.com</a></li>
+                        <li><i class="fas fa-phone"></i> +1 (206) 555-7890</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Redmond, WA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2025</span> David Khalifa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/details-parser.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Update current year in footer
+            document.getElementById('current-year').innerText = new Date().getFullYear();
+            
+            // Mobile menu toggle
+            const navToggle = document.querySelector('.nav-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            if (navToggle) {
+                navToggle.addEventListener('click', function() {
+                    navMenu.classList.toggle('active');
+                    const icon = navToggle.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+            }
+            
+            // Header scroll effect
+            window.addEventListener('scroll', function() {
+                const header = document.querySelector('.header');
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+            
+            // Load personal information
+            if (window.personalDetails) {
+                // Load about description
+                const aboutDescription = document.getElementById('about-description');
+                if (aboutDescription) {
+                    aboutDescription.textContent = window.personalDetails.summary.aboutMe;
+                }
+                
+                // Load my story
+                const myStory = document.getElementById('my-story');
+                if (myStory) {
+                    myStory.textContent = window.personalDetails.summary.myStory;
+                }
+                
+                // Load skills
+                const skillsContainer = document.getElementById('skills-container');
+                if (skillsContainer && window.personalDetails.skills) {
+                    skillsContainer.innerHTML = '';
+                    window.personalDetails.skills.forEach(skill => {
+                        const skillTag = document.createElement('span');
+                        skillTag.className = 'tag';
+                        skillTag.textContent = skill;
+                        skillsContainer.appendChild(skillTag);
+                    });
+                }
+                
+                // Categorize skills
+                const cloudSkills = ['Cloud Architecture', 'Microsoft Azure', 'AWS', 'GCP', 'IaC'];
+                const languageSkills = ['C#/.NET', 'Java', 'Python', 'JavaScript/TypeScript', 'React', 'Node.js'];
+                const architectureSkills = ['Distributed Systems', 'Microservices', 'Enterprise Architecture', 'System Design', 'Solution Architecture', 'Event-driven Architecture'];
+                const devopsSkills = ['DevOps', 'CI/CD', 'Kubernetes', 'Docker', 'Azure DevOps', 'GitHub Actions', 'Terraform'];
+                
+                // Function to populate skill categories
+                const populateSkillCategory = (elementId, skillList) => {
+                    const element = document.getElementById(elementId);
+                    if (element) {
+                        element.innerHTML = '';
+                        window.personalDetails.skills.forEach(skill => {
+                            if (skillList.includes(skill)) {
+                                const skillTag = document.createElement('span');
+                                skillTag.className = 'tag';
+                                skillTag.textContent = skill;
+                                element.appendChild(skillTag);
+                            }
+                        });
+                    }
+                };
+                
+                populateSkillCategory('cloud-skills', cloudSkills);
+                populateSkillCategory('language-skills', languageSkills);
+                populateSkillCategory('architecture-skills', architectureSkills);
+                populateSkillCategory('devops-skills', devopsSkills);
+                
+                // Load education
+                const educationContainer = document.getElementById('education-container');
+                if (educationContainer && window.personalDetails.education) {
+                    educationContainer.innerHTML = '';
+                    window.personalDetails.education.forEach(education => {
+                        const educationCard = document.createElement('div');
+                        educationCard.className = 'card';
+                        
+                        educationCard.innerHTML = `
+                            <div class="education-item">
+                                <div class="education-logo">
+                                    <img src="${education.logo}" alt="${education.institution}" onerror="this.onerror=null; this.src=''; this.parentElement.innerHTML='<i class=\\'fas fa-university\\'></i>';">
+                                </div>
+                                <div class="education-details">
+                                    <h3>${education.institution}</h3>
+                                    <p class="education-degree">${education.degree}</p>
+                                    <p class="education-period">${education.period}</p>
+                                    <p class="education-location">${education.location}</p>
+                                </div>
+                            </div>
+                        `;
+                        
+                        educationContainer.appendChild(educationCard);
+                    });
+                }
+                
+                // Load timeline entries
+                let currentEntryIndex = 0;
+                const timelineEntries = [];
+                
+                if (window.personalDetails.experience) {
+                    // Flatten the experience array into individual position entries
+                    window.personalDetails.experience.forEach(company => {
+                        company.positions.forEach(position => {
+                            // Build proper path to the logo
+                            let logoPath = company.logo;
+                            
+                            // Check if the logo contains 'icons/' but not starting with a proper path
+                            if (logoPath && logoPath.includes('icons/') && !logoPath.startsWith('images/')) {
+                                logoPath = 'images/' + logoPath;
+                            }
+                            // Check if the logo is just a filename without a path
+                            else if (logoPath && !logoPath.includes('/')) {
+                                logoPath = 'images/' + logoPath;
+                            }
+                            
+                            timelineEntries.push({
+                                company: company.company,
+                                logo: logoPath,
+                                title: position.title,
+                                period: position.period,
+                                location: position.location,
+                                description: position.description
+                            });
+                        });
+                    });
+                    
+                    // Create timeline dots
+                    const timelineDots = document.getElementById('timeline-dots');
+                    if (timelineDots) {
+                        timelineDots.innerHTML = '';
+                        timelineEntries.forEach((entry, index) => {
+                            const dot = document.createElement('span');
+                            dot.className = `timeline-dot ${index === 0 ? 'active' : ''}`;
+                            dot.setAttribute('data-index', index);
+                            dot.addEventListener('click', () => {
+                                showTimelineEntry(index);
+                            });
+                            timelineDots.appendChild(dot);
+                        });
+                    }
+                    
+                    // Show the first timeline entry
+                    showTimelineEntry(0);
+                    
+                    // Timeline navigation
+                    const prevButton = document.querySelector('.timeline-nav.prev');
+                    const nextButton = document.querySelector('.timeline-nav.next');
+                    
+                    if (prevButton) {
+                        prevButton.addEventListener('click', () => {
+                            let newIndex = currentEntryIndex - 1;
+                            if (newIndex < 0) newIndex = timelineEntries.length - 1;
+                            showTimelineEntry(newIndex);
+                        });
+                    }
+                    
+                    if (nextButton) {
+                        nextButton.addEventListener('click', () => {
+                            let newIndex = currentEntryIndex + 1;
+                            if (newIndex >= timelineEntries.length) newIndex = 0;
+                            showTimelineEntry(newIndex);
+                        });
+                    }
+                }
+                
+                // Function to show timeline entry by index
+                function showTimelineEntry(index) {
+                    if (index < 0 || index >= timelineEntries.length) return;
+                    
+                    currentEntryIndex = index;
+                    const entry = timelineEntries[index];
+                    
+                    // Update timeline dots
+                    const dots = document.querySelectorAll('.timeline-dot');
+                    dots.forEach((dot, i) => {
+                        if (i === index) {
+                            dot.classList.add('active');
+                        } else {
+                            dot.classList.remove('active');
+                        }
+                    });
+                    
+                    // Update timeline entry content
+                    const timelineEntriesContainer = document.getElementById('timeline-entries');
+                    if (timelineEntriesContainer) {
+                        timelineEntriesContainer.innerHTML = `
+                            <div class="timeline-entry active">
+                                <div class="timeline-date">${entry.period}</div>
+                                <div class="timeline-content">
+                                    <h3 class="timeline-title">${entry.title}</h3>
+                                    <div class="timeline-company">
+                                        <img src="${entry.logo}" alt="${entry.company}" class="company-logo">
+                                        <span style="margin-left: 10px;">${entry.company}, ${entry.location}</span>
+                                    </div>
+                                    <p class="timeline-description">${entry.description}</p>
+                                </div>
+                            </div>
+                        `;
+                    }
+                }
+            }
+        });
+    </script>
+    <script src="js/chatbot/chatbot.js"></script>
+    <style>
+        /* Additional styles specific to about page */
+        .education-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: var(--spacing-lg);
+            margin-top: var(--spacing-lg);
+        }
+        
+        .education-item {
+            display: flex;
+            align-items: flex-start;
+        }
+        
+        .education-logo {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: var(--spacing-lg);
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #f5f5f5;
+        }
+        
+        .education-logo img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        
+        .education-logo i {
+            font-size: 2rem;
+            color: var(--primary);
+        }
+        
+        .education-details h3 {
+            margin-bottom: var(--spacing-xs);
+        }
+        
+        .education-degree {
+            font-weight: 600;
+            margin-bottom: var(--spacing-xs);
+        }
+        
+        .education-period, .education-location {
+            color: var(--text-light);
+            margin-bottom: var(--spacing-xs);
+        }
+        
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: var(--spacing-md) 0;
+        }
+        
+        .skills-categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--spacing-lg);
+            margin-top: var(--spacing-lg);
+        }
+        
+        .skill-category h4 {
+            margin-bottom: var(--spacing-sm);
+            color: var(--primary);
+        }
+        
+        @media screen and (max-width: 767px) {
+            .education-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>
