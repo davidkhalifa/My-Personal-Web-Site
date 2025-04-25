@@ -1,0 +1,25 @@
+{
+  "name": "modern-personal-website",
+  "version": "1.0.0",
+  "description": "Modern responsive personal website for David Khalifa",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [
+    "responsive",
+    "website",
+    "business"
+  ],
+  "author": "David Khalifa",
+  "license": "MIT",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
