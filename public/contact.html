@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | David Khalifa - Principal Software Architect</title>
+    <meta name="description" content="Get in touch with David Khalifa, Principal Software Architect at Microsoft specializing in cloud architecture and distributed systems.">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">David Khalifa</a>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Header -->
+    <section class="hero" style="padding: 140px 0 var(--spacing-xl);">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Contact Me</h1>
+                    <p class="hero-tagline">Let's Connect and Discuss Your Project</p>
+                    <p>I'm always interested in hearing about new opportunities, projects, or just connecting with fellow technology enthusiasts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Info Section -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2 class="mb-lg">Contact Information</h2>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Email-Work</h4>
+                            <p>For professional inquiries:</p>
+                            <p><a href="mailto:davidkhalifa@microsoft.com" id="contact-email">davidkhalifa@microsoft.com</a></p>
+                            <h4>Email-Personal</h4>
+                            <p>For personal inquiries:</p>
+                            <p><a href="mailto:david.kkhalifa@gmail.com" id="contact-email">david.kkhalifa@gmail.com</a></p>
+                           
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <p>Available during business hours (PST):</p>
+                            <p><a href="tel:+12065557890" id="contact-phone">+1 (206) 555-7890</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p id="contact-address">Microsoft Redmond Campus</p>
+                            <p>15010 NE 36th St, Redmond, WA 98052</p>
+                        </div>
+                    </div>
+                    
+                    <h3 class="mb-md mt-xl">Connect With Me</h3>                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/davidkhalifa" class="social-icon linkedin" aria-label="LinkedIn" id="social-linkedin" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/davidkhalifa" class="social-icon github" aria-label="GitHub" id="social-github" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/davidkhalifa" class="social-icon twitter" aria-label="Twitter" id="social-twitter" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <h2 class="mb-lg">Send Me a Message</h2>
+                    <div class="contact-form-container">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" class="form-control" rows="6" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-map-container">
+                <h2 class="mb-lg">My Location</h2>
+                <div id="contact-map" class="contact-map"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-heading">
+                <h2>How Can I Help?</h2>
+                <p>Some common ways I collaborate with clients and organizations</p>
+            </div>
+            
+            <div class="services-container">
+                <div class="card service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Architecture Consulting</h3>
+                    <p>Expert guidance on cloud adoption strategies, architecture design, and implementation best practices for Azure, AWS, and GCP.</p>
+                </div>
+                
+                <div class="card service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Distributed Systems Design</h3>
+                    <p>Specialized expertise in designing resilient, scalable distributed systems and microservices architectures for enterprise applications.</p>
+                </div>
+                
+                <div class="card service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3>DevOps Transformation</h3>
+                    <p>Strategic guidance and implementation support for organizations seeking to adopt modern DevOps practices and CI/CD pipelines.</p>
+                </div>
+                
+                <div class="card service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Technical Workshops</h3>
+                    <p>Custom training sessions and workshops on cloud architecture, distributed systems, and modern software development practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>David Khalifa</h3>
+                    <p>Principal Software Architect specializing in cloud solutions, distributed systems, and enterprise architecture.</p>                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/davidkhalifa" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/davidkhalifa" class="social-icon" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/davidkhalifa" class="social-icon" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Navigation</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:davidkhalifa@microsoft.com">davidkhalifa@microsoft.com</a></li>
+                        <li><i class="fas fa-phone"></i> +1 (408) 387-3928</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Redmond, WA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2025</span> David Khalifa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/details-parser.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Update current year in footer
+            document.getElementById('current-year').innerText = new Date().getFullYear();
+            
+            // Mobile menu toggle
+            const navToggle = document.querySelector('.nav-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            if (navToggle) {
+                navToggle.addEventListener('click', function() {
+                    navMenu.classList.toggle('active');
+                    const icon = navToggle.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+            }
+            
+            // Header scroll effect
+            window.addEventListener('scroll', function() {
+                const header = document.querySelector('.header');
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+            
+            // Load contact info from details.json
+            if (window.personalDetails && window.personalDetails.contact) {
+                const contact = window.personalDetails.contact;
+                
+                // Update email
+                const emailElement = document.getElementById('contact-email');
+                if (emailElement && contact.email) {
+                    emailElement.textContent = contact.email;
+                    emailElement.href = `mailto:${contact.email}`;
+                }
+                
+                // Update phone
+                const phoneElement = document.getElementById('contact-phone');
+                if (phoneElement && contact.phone) {
+                    phoneElement.textContent = contact.phone;
+                    phoneElement.href = `tel:${contact.phone.replace(/[^0-9+]/g, '')}`;
+                }
+                
+                // Update address
+                const addressElement = document.getElementById('contact-address');
+                if (addressElement && contact.address) {
+                    addressElement.textContent = contact.address;
+                }
+                
+                // Update social links
+                if (contact.social) {
+                    const linkedinElement = document.getElementById('social-linkedin');
+                    if (linkedinElement && contact.social.linkedin) {
+                        linkedinElement.href = contact.social.linkedin;
+                    }
+                    
+                    const githubElement = document.getElementById('social-github');
+                    if (githubElement && contact.social.github) {
+                        githubElement.href = contact.social.github;
+                    }
+                    
+                    const twitterElement = document.getElementById('social-twitter');
+                    if (twitterElement && contact.social.twitter) {
+                        twitterElement.href = contact.social.twitter;
+                    }
+                }
+                
+                // Initialize Google Maps with address from details.json
+                initMap();
+            }
+            
+            // Handle form submission
+            const contactForm = document.getElementById('contact-form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // In a real implementation, this would send the form data to a server
+                    // For demo purposes, we'll just show a success message
+                    alert('Thank you for your message! In a real implementation, this would send your message to David Khalifa.');
+                    contactForm.reset();
+                });
+            }
+            
+            // Google Maps initialization
+            function initMap() {
+                const mapContainer = document.getElementById('contact-map');
+                if (!mapContainer) return;
+                
+                // Loading indicator
+                mapContainer.innerHTML = `
+                    <div class="map-loading">
+                        <div class="spinner"></div>
+                        <p>Loading map...</p>
+                    </div>
+                `;
+                
+                // Get address from details.json
+                if (window.personalDetails && window.personalDetails.contact && window.personalDetails.contact.address) {
+                    const address = window.personalDetails.contact.address;
+                    try {
+                        // Create embedded iframe using address 
+                        mapContainer.innerHTML = `
+                            <iframe 
+                                src="https://www.google.com/maps/embed/v1/place?q=${encodeURIComponent(address)}&zoom=15&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                                width="100%" 
+                                height="100%" 
+                                frameborder="0" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                aria-hidden="false" 
+                                tabindex="0"
+                                onload="this.parentNode.classList.add('map-loaded')"
+                                onerror="mapLoadError()"
+                            ></iframe>
+                        `;
+                    } catch (error) {
+                        mapLoadError();
+                    }
+                } else {
+                    mapLoadError();
+                }
+            }
+            
+            // Fallback for when map fails to load
+            function mapLoadError() {
+                const mapContainer = document.getElementById('contact-map');
+                if (!mapContainer) return;
+                
+                mapContainer.innerHTML = `
+                    <div class="map-fallback">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Microsoft Redmond Campus</h3>
+                        <p>15010 NE 36th St, Redmond, WA 98052</p>
+                        <a href="https://www.google.com/maps?q=Microsoft+Redmond+Campus" target="_blank" class="btn btn-outline">
+                            View on Google Maps
+                        </a>
+                    </div>
+                `;
+            }
+        });
+    </script>
+    <style>
+        /* Additional styles specific to contact page */
+        .contact-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-xl);
+            margin-bottom: var(--spacing-xl);
+        }
+        
+        .contact-info, .contact-form-wrapper {
+            background-color: var(--card-bg);
+            border-radius: var(--radius-md);
+            padding: var(--spacing-lg);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .contact-map-container {
+            margin-top: var(--spacing-xl);
+        }
+        
+        /* Google Maps styling */
+        .contact-map {
+            height: 350px;
+            width: 100%;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            position: relative;
+            background-color: #f5f5f5;
+        }
+        
+        .map-loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+        
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(52, 152, 219, 0.2);
+            border-top: 4px solid var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: var(--spacing-sm);
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .map-fallback {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            padding: var(--spacing-lg);
+            text-align: center;
+        }
+        
+        .map-fallback i {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: var(--spacing-md);
+        }
+        
+        .map-fallback h3 {
+            margin-bottom: var(--spacing-sm);
+        }
+        
+        .map-fallback p {
+            margin-bottom: var(--spacing-md);
+        }
+        
+        .services-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: var(--spacing-lg);
+            margin-top: var(--spacing-xl);
+        }
+        
+        .service-card {
+            text-align: center;
+            padding: var(--spacing-xl);
+        }
+        
+        .service-icon {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: var(--spacing-md);
+        }
+        
+        @media screen and (max-width: 991px) {
+            .contact-wrapper {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-map {
+                height: 250px;
+            }
+        }
+    </style>
+    <script src="js/chatbot/chatbot.js"></script>
+</body>
+</html>

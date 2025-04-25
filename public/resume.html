@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | David Khalifa - Principal Software Architect</title>
+    <meta name="description" content="Professional resume of David Khalifa, Principal Software Architect at Microsoft with expertise in cloud architecture and distributed systems.">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="index.html">David Khalifa</a>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html" class="active">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Resume Header -->
+    <section class="hero" style="padding: 140px 0 var(--spacing-xl);">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Resume</h1>
+                    <p class="hero-tagline">My Professional Background & Experience</p>
+                    <div class="resume-actions mt-lg">
+                        <a href="resume/david-khalifa-resume.pdf" class="btn btn-primary btn-lg" download>
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                        <a href="resume/david-khalifa-resume.pdf" class="btn btn-outline btn-lg" target="_blank">
+                            <i class="fas fa-eye"></i> View Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Professional Summary -->
+    <section class="section">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Professional Summary</h2>
+                <p>Overview of my professional experience and expertise</p>
+            </div>
+            
+            <div class="card">
+                <p id="professional-summary">Principal Software Architect with 25+ years of experience designing and implementing enterprise-scale digital transformation programs exceeding $800 million for global enterprises. Passionate about generative AI, cloud technologies, and creating intelligent enterprise solutions. Extensive expertise in Microsoft Azure, AWS, and cloud-native architectures with a proven track record of leading AI-driven transformation initiatives for Fortune 100/500/1000 corporations, particularly in the areas of Microsoft AI Copilot development and enterprise planning.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Experience Timeline -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Work Experience</h2>
+                <p>My professional journey and career milestones</p>
+            </div>
+            
+            <div class="resume-timeline" id="resume-timeline">
+                <!-- Will be populated dynamically -->
+                <div class="resume-timeline-loader">
+                    <i class="fas fa-spinner fa-pulse"></i>
+                    <p>Loading work experience...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Project Highlights -->
+    <section class="section">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Project Highlights</h2>
+                <p>Significant projects demonstrating technical expertise</p>
+            </div>
+            
+            <div class="projects-grid" id="resume-projects-grid">
+                <!-- Project cards will be loaded dynamically -->
+                <!-- Loading placeholder -->
+                <div class="card project-card">
+                    <h3 class="project-title">Loading...</h3>
+                    <p class="project-description">Loading project information...</p>
+                    <div class="project-tech">
+                        <span class="tag">Loading</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Frequently Asked Questions</h2>
+                <p>Common questions about my professional approach and expertise</p>
+            </div>
+            
+            <div class="faq-container" id="faq-container">
+                <!-- Will be populated dynamically -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Interested in Working Together?</h2>
+                <p>Feel free to reach out if you'd like to discuss potential opportunities or projects.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary btn-lg">Contact Me</a>
+                    <a href="index.html#expertise" class="btn btn-outline btn-lg">View Expertise</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>David Khalifa</h3>
+                    <p>Principal Software Architect specializing in cloud solutions, distributed systems, and enterprise architecture.</p>                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/davidkhalifa" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/davidkhalifa" class="social-icon" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://twitter.com/davidkhalifa" class="social-icon" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Navigation</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:davidkhalifa@microsoft.com">davidkhalifa@microsoft.com</a></li>
+                        <li><i class="fas fa-phone"></i> +1 (206) 555-7890</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Redmond, WA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2025</span> David Khalifa. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/details-parser.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Update current year in footer
+            document.getElementById('current-year').innerText = new Date().getFullYear();
+            
+            // Mobile menu toggle
+            const navToggle = document.querySelector('.nav-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            if (navToggle) {
+                navToggle.addEventListener('click', function() {
+                    navMenu.classList.toggle('active');
+                    const icon = navToggle.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+            }
+            
+            // Header scroll effect
+            window.addEventListener('scroll', function() {
+                const header = document.querySelector('.header');
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+            
+            // Load resume content from details.json
+            if (window.personalDetails) {
+                // Load work experience
+                const resumeTimeline = document.getElementById('resume-timeline');
+                
+                if (resumeTimeline && window.personalDetails.experience) {
+                    resumeTimeline.innerHTML = '';
+                    
+                    window.personalDetails.experience.forEach(company => {
+                        const companySection = document.createElement('div');
+                        companySection.className = 'resume-timeline-company';
+                        
+                        const companyHeader = document.createElement('div');
+                        companyHeader.className = 'resume-company-header';
+                        companyHeader.innerHTML = `
+                            <div class="resume-company-logo">
+                                <img src="${company.logo}" alt="${company.company}" onerror="this.onerror=null; this.src=''; this.parentElement.innerHTML='<i class=\\'fas fa-building\\'></i>';">
+                            </div>
+                            <div class="resume-company-info">
+                                <h3>${company.company}</h3>
+                                <p class="resume-duration">${company.duration}</p>
+                            </div>
+                        `;
+                        
+                        const positionsContainer = document.createElement('div');
+                        positionsContainer.className = 'resume-positions';
+                        
+                        company.positions.forEach(position => {
+                            const positionItem = document.createElement('div');
+                            positionItem.className = 'resume-position-item';
+                            positionItem.innerHTML = `
+                                <div class="resume-position-header">
+                                    <h4>${position.title}</h4>
+                                    <div class="resume-position-meta">
+                                        <span class="resume-period">${position.period}</span>
+                                        <span class="resume-location">${position.location}</span>
+                                    </div>
+                                </div>
+                                <p class="resume-position-description">${position.description}</p>
+                            `;
+                            positionsContainer.appendChild(positionItem);
+                        });
+                        
+                        companySection.appendChild(companyHeader);
+                        companySection.appendChild(positionsContainer);
+                        resumeTimeline.appendChild(companySection);
+                    });
+                }
+                
+                // Load project highlights
+                const projectsGrid = document.getElementById('resume-projects-grid');
+                if (projectsGrid && window.personalDetails.projectHighlights) {
+                    projectsGrid.innerHTML = '';
+                    window.personalDetails.projectHighlights.forEach(project => {
+                        const projectCard = document.createElement('div');
+                        projectCard.className = 'card project-card';
+                        
+                        let techHTML = '';
+                        if (project.technologies) {
+                            project.technologies.forEach(tech => {
+                                techHTML += `<span class="tag">${tech}</span>`;
+                            });
+                        }
+                        
+                        projectCard.innerHTML = `
+                            <h3 class="project-title">${project.title}</h3>
+                            <p class="project-description">${project.description}</p>
+                            <div class="project-tech">
+                                ${techHTML}
+                            </div>
+                        `;
+                        
+                        projectsGrid.appendChild(projectCard);
+                    });
+                }
+                
+                // Load FAQ items
+                const faqContainer = document.getElementById('faq-container');
+                if (faqContainer && window.personalDetails.faq) {
+                    faqContainer.innerHTML = '';
+                    
+                    window.personalDetails.faq.forEach(category => {
+                        const faqCategory = document.createElement('div');
+                        faqCategory.className = 'faq-category';
+                        
+                        faqCategory.innerHTML = `<h3 class="faq-category-title">${category.category}</h3>`;
+                        
+                        category.items.forEach(item => {
+                            const faqItem = document.createElement('div');
+                            faqItem.className = 'faq-item';
+                            faqItem.innerHTML = `
+                                <div class="faq-question">
+                                    <h3>${item.question}</h3>
+                                    <div class="faq-toggle">
+                                        <i class="fas fa-chevron-down"></i>
+                                    </div>
+                                </div>
+                                <div class="faq-answer">
+                                    <p>${item.answer}</p>
+                                </div>
+                            `;
+                            
+                            // Add click event to toggle FAQ answer
+                            faqItem.querySelector('.faq-question').addEventListener('click', () => {
+                                faqItem.classList.toggle('active');
+                            });
+                            
+                            faqCategory.appendChild(faqItem);
+                        });
+                        
+                        faqContainer.appendChild(faqCategory);
+                    });
+                }
+            }
+        });
+    </script>
+    <script src="js/chatbot/chatbot.js"></script>
+    <style>
+        /* Additional styles specific to resume page */
+        .resume-preview {
+            max-width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            transform: rotate(3deg);
+            border: 10px solid white;
+        }
+        
+        .resume-actions {
+            display: flex;
+            gap: var(--spacing-md);
+            flex-wrap: wrap;
+        }
+        
+        .resume-actions .btn i {
+            margin-right: 8px;
+        }
+        
+        .resume-timeline {
+            margin-top: var(--spacing-xl);
+        }
+        
+        .resume-timeline-company {
+            background: var(--card-bg);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-md);
+            margin-bottom: var(--spacing-lg);
+            overflow: hidden;
+        }
+        
+        .resume-company-header {
+            display: flex;
+            align-items: center;
+            padding: var(--spacing-lg);
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .resume-company-logo {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: var(--spacing-md);
+            background-color: #f5f5f5;
+            border-radius: var(--radius-sm);
+            overflow: hidden;
+        }
+        
+        .resume-company-logo img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+        
+        .resume-company-logo i {
+            font-size: 1.8rem;
+            color: var(--primary);
+        }
+        
+        .resume-company-info h3 {
+            margin-bottom: var(--spacing-xs);
+        }
+        
+        .resume-duration {
+            color: var(--text-light);
+        }
+        
+        .resume-positions {
+            padding: var(--spacing-lg);
+        }
+        
+        .resume-position-item {
+            padding-bottom: var(--spacing-lg);
+            margin-bottom: var(--spacing-lg);
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .resume-position-item:last-child {
+            padding-bottom: 0;
+            margin-bottom: 0;
+            border-bottom: none;
+        }
+        
+        .resume-position-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: var(--spacing-sm);
+            flex-wrap: wrap;
+        }
+        
+        .resume-position-header h4 {
+            margin-bottom: var(--spacing-xs);
+            color: var(--primary-dark);
+        }
+        
+        .resume-position-meta {
+            display: flex;
+            gap: var(--spacing-md);
+            color: var(--text-light);
+            font-style: italic;
+            flex-wrap: wrap;
+        }
+        
+        .resume-position-description {
+            margin-bottom: 0;
+        }
+        
+        .resume-timeline-loader {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: var(--spacing-lg);
+        }
+        
+        .resume-timeline-loader i {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: var(--spacing-md);
+        }
+        
+        @media screen and (max-width: 767px) {
+            .resume-position-header {
+                flex-direction: column;
+            }
+            
+            .resume-position-meta {
+                margin-top: var(--spacing-xs);
+            }
+            
+            .resume-actions {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .resume-company-header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .resume-company-logo {
+                margin-right: 0;
+                margin-bottom: var(--spacing-md);
+            }
+        }
+    </style>
+</body>
+</html>
